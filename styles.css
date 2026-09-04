@@ -41,10 +41,14 @@ a:hover {
 .nav-list a {
   color: #e5e7eb;
   font-weight: 500;
+  padding: 0.4rem 0.1rem;
+  border-bottom: 2px solid transparent;
 }
 
 .nav-list a:hover {
   color: #ffffff;
+  border-bottom: 2px solid #2b6cb0;
+  text-decoration: none;
 }
 
 main {
@@ -67,6 +71,8 @@ main {
   color: #9ca3af;
   padding: 1.25rem;
   font-size: 0.85rem;
+  border-top: 4px solid #2b6cb0;
+  margin-top: 3rem;
 }
 
 /* Home */
@@ -75,22 +81,52 @@ main {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #ffffff;
 }
 
 .about-image img {
+  border: 4px solid #ffffff;
   border-radius: 8px;
+  box-shadow: 0 0 0 1px #e5e7eb;
 }
 
 /* Resume */
+a[download] {
+  display: inline-block;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.5rem 1.25rem;
+  border: 2px solid #2b6cb0;
+  border-radius: 4px;
+}
+
+a[download]:hover {
+  background-color: #2b6cb0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
 .section-title {
   color: #2b6cb0;
-  margin-top: 2rem;
+  margin-top: 0;
   border-bottom: 1px solid #d1d5db;
   padding-bottom: 0.25rem;
 }
 
 .entry {
   margin-bottom: 1.25rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid #d1d5db;
 }
 
 .entry-title {
